@@ -1,0 +1,31 @@
+.panda-bg-info{
+    background-color: #FEEAE9;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+button{
+    background-image: linear-gradient(rgb(231, 86, 154),rgb(200, 0, 88)  );
+    padding: 5px 20px;
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 2px;
+}
+.panda-categories1{
+    border-radius: 10px;
+    background-image:linear-gradient(rgb(255, 31, 136), pink);
+    color: white;
+}
+.panda-categories2{
+    border-radius: 10px;
+    background-image:linear-gradient(rgb(223, 190, 5), yellow );
+    color: white;
+}
+.panda-categories3{
+    border-radius: 10px;
+    background-image:linear-gradient( rgb(0, 110, 255), rgb(47, 181, 190) );
+    color: white;
+}
+nav{
+    position: fixed;
+    z-index:2;
+}
