@@ -13,7 +13,7 @@
 <body>
   <!-- navbar section -->
     <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,16 +32,16 @@
            
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#logo">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">contact</a>
+                <a class="nav-link" href="#bagpacks">Bagpacks</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Info</a>
+                <a class="nav-link" href="#subscribe">Subscribe</a>
               </li>
             </ul>
         </div>
@@ -50,7 +50,7 @@
       </nav>
       <!-- header part -->
       
-       <section class="container">
+       <section class="container" id="logo">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -124,7 +124,7 @@
   </div>
 </section>
 <!-- shoes -->
-<section class="container my-5">
+<section class="container my-5" id="shoes">
   <h1>Shoes</h1>
 <div class="row row-cols-1 row-cols-md-3 my-3 g-4">
   <div class="col col-12 col-md-6 col-lg-4">
@@ -169,7 +169,7 @@
 </div>
 </section>
 <!-- Bagpack -->
-<section class="container my-5">
+<section class="container my-5" id="bagpacks">
   <h1>Bagpacks</h1>
 <div class="row row-cols-1 row-cols-md-3 my-3 g-4">
   <div class="col col-12 col-md-6 col-lg-4">
@@ -213,7 +213,8 @@
   </div>
 </div>
 </section>
-<section style="height: 300px;" class="container d-flex justify-content-center align-items-center mb-5 panda-bg-info ">
+<!-- subscribe -->
+<section style="height: 300px;" class="container d-flex justify-content-center align-items-center mb-5 panda-bg-info " id="subscribe">
   <div>
   <h1>LET'S STAY IN TOUCH</h1>
   <p>Get updates on sales specials and more</p>
